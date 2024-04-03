@@ -1,0 +1,12 @@
+{
+  "name": "hardhat-project",
+  "dependencies": {
+    "@redstone-finance/erc7412": "0.4.0-alpha.0",
+    "@redstone-finance/on-chain-relayer": "0.4.0-alpha.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-viem": "^2.0.0",
+    "hardhat": "^2.22.2"
+  }
+}
