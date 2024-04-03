@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# erc7412 example
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Check out [docs](https://docs.redstone.finance/docs/smart-contract-devs/get-started/redstone-erc7412) for more information 
 
-Try running some of the following tasks:
+- `contracts/ETHFeed.sol` - example contract
+- `test/ETHFeed.ts` - hardhat demonstration test for above example
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+
+## How to use
+- `npm i`
+- `npx hardhat compile`
+- `npx hardhat test`
